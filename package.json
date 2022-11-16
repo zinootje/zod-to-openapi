@@ -28,7 +28,7 @@
     "prettier": "prettier --write .",
     "lint": "prettier --check .",
     "prepublishOnly": "npm run build",
-    "post-install":"tsc -p tsconfig.build.json"
+    "postinstall":"tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "openapi3-ts": "^3.1.1"
